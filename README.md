@@ -58,3 +58,6 @@ Veja se a API está funcionando executando o seguinte comando:
 ```sh
 curl http://localhost:5000
 ```
+
+Em seguida, siga o restante das [instruções](docs/setup.md) para completar a
+configuração do seu ambiente de desenvolvimento.
