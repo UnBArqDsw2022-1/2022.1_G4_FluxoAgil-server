@@ -1,2 +1,4 @@
-flask
-Flask-RESTful
+flask==2.2.1
+Flask-RESTful==0.3.9
+autopep8==1.6.0
+pylint==2.14.5
