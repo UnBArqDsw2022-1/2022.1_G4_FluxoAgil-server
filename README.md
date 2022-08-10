@@ -20,13 +20,13 @@
   </p>
 </div>
 
-## Sobre o Fluxo Ágil Web
+## Sobre o Fluxo Ágil
 
 Fluxo Ágil é um aplicativo que recomenda um fluxo de disciplinas 
 para estudantes de graduação da Universidade de Brasília baseado
 em seu histórico acadêmico.
 
-Esse é o repositório que hospeda o servidor do aplicativo Fluxo Ágil.
+Esse é o repositório que hospeda o servidor da aplicação Fluxo Ágil.
 
 ## Montar ambiente de desenvolvimento
 
@@ -47,10 +47,17 @@ Instale os requirements
 pip install -r requirements.txt
 ```
 
-Rodando a aplicação
+Inicie o servidor
 
 ```sh
 python3 main.py
 ```
 
-Dê uma olhada em http://127.0.0.1:5000.
+Veja se a API está funcionando executando o seguinte comando:
+
+```sh
+curl http://localhost:5000
+```
+
+Em seguida, siga o restante das [instruções](docs/setup.md) para completar a
+configuração do seu ambiente de desenvolvimento.
