@@ -30,6 +30,27 @@ Esse é o repositório que hospeda o servidor da aplicação Fluxo Ágil.
 
 ## Montar ambiente de desenvolvimento
 
+### Com Docker
+
+Para subir o ambiente de desenvolvimento utilizando o docker, voce precisa ter o [Docker](https://www.docker.com/) instalado em seu computador.
+
+Clone o repositório
+Então, para subir o servidor, execute o comando abaixo:
+
+```sh
+docker build -t fluxoagil -f Dockerfile .
+```
+
+Após a construção, execute o comando abaixo para subir o servidor:
+
+```sh
+docker run -p 5000:9007 fluxoagil
+```
+
+Assim o servidor estará disponível em http://localhost:5000.
+
+### Sem Docker
+
 Para subir o ambiente de desenvolvimento, você precisa ter
 [Python](https://www.python.org/) na versão 3.10 instalado
 em seu computador.
