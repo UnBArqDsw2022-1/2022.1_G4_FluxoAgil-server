@@ -5,7 +5,7 @@ import uuid
 import os
 from utils import ContentExtractor
 
-UPLOAD_DIR = "fluxoagil/uploads/"
+UPLOAD_DIR = os.path.join(os.getcwd(), 'fluxoagil', 'uploads')
 
 class AcademicHistory(Resource):
     def __init__(self):
@@ -27,7 +27,7 @@ class AcademicHistory(Resource):
         file_name = file.filename
 
         if not AcademicHistory.allowed_file(file_name):
-            resp = jsonify({'error': 'Unallowed file extension (must be PDF)'})
+            resp = jsonify({'error': 'File type not supported (must be PDF)'})
             resp.status_code = 400
             return resp
 
