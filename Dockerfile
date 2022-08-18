@@ -1,9 +1,12 @@
-FROM python:3.8-slim-buster
+FROM python:3.10-slim
 
+WORKDIR /usr/src/app
 COPY requirements.txt ./requirements.txt
-COPY main.py ./main.py
-COPY fluxoagil /fluxoagil
-
 RUN pip install -r requirements.txt
 
-CMD ["python", "./main.py"]
+COPY main.py ./main.py
+COPY fluxoagil fluxoagil
+
+EXPOSE 5000
+
+CMD ["python3", "main.py"]

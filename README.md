@@ -44,7 +44,7 @@ docker build -t fluxoagil -f Dockerfile .
 Após a construção, execute o comando abaixo para subir o servidor:
 
 ```sh
-docker run -p 5000:9007 fluxoagil
+docker run -p 5000:5000 fluxoagil
 ```
 
 Assim o servidor estará disponível em http://localhost:5000.
