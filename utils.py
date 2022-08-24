@@ -93,7 +93,7 @@ class ContentExtractor:
             pattern = r"\d+/-?\d -"
             match = re.findall(pattern, block)
             match = "".join(match)
-            self.curriculun_number = match.replace('-', '')
+            self.curriculun_number = match.replace(' -', '')
             return self.curriculun_number
 
     def extract_curriculum(self):
