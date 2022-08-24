@@ -35,11 +35,11 @@ class AcademicHistory(Resource):
         file_path = os.path.join(UPLOAD_DIR, new_file_name)
         file.save(file_path)
 
-        approved_courses = ContentExtractor(file_path).aproved_courses
+        academic_history = ContentExtractor(file_path).academic_history
 
         os.remove(file_path)
 
-        return approved_courses
+        return academic_history
 
     def allowed_file(filename):
         ALLOWED_EXTENSIONS = {'pdf'}
