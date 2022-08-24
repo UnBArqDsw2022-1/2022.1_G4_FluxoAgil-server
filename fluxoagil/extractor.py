@@ -104,8 +104,8 @@ class ContentExtractor:
     
     def make_academic_history(self, **kwargs):
         return {
-            "curriculumId": self.curriculun_number,
-            "approvedCourses": self.aproved_courses,
+            "curriculum_id": self.curriculun_number,
+            "approved_courses": self.aproved_courses,
             "workload": {
                 "mandatory": {
                     "required": kwargs['required_mandatory'],
@@ -129,4 +129,3 @@ class ContentExtractor:
                 }
             }
         }
-
