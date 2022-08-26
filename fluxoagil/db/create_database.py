@@ -1,5 +1,7 @@
 from fluxoagil.db.connection import Base, engine
-from fluxoagil.models import Graduation
+
+# Se remover esses imports, as tabelas não são criadas.
+from fluxoagil.models import Graduation, Curriculum
 
 def create_database():
     Base.metadata.create_all(engine)
