@@ -10,6 +10,7 @@ class Graduation(Base):
     id = Column(String, primary_key=True)
     name = Column(String(50))
     description = Column(String(50))
+    url = Column(String(80))
     credits = Column(Integer)
     workload_in_hours = Column(Integer)
 
