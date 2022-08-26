@@ -3,7 +3,7 @@ from flask import jsonify
 import werkzeug
 import uuid
 import os
-from utils import ContentExtractor
+from fluxoagil.utils import ContentExtractor
 
 UPLOAD_DIR = os.path.join(os.getcwd(), 'fluxoagil', 'uploads')
 
