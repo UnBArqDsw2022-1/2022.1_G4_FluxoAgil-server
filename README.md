@@ -30,37 +30,56 @@ Esse é o repositório que hospeda o servidor da aplicação Fluxo Ágil.
 
 ## Montar ambiente de desenvolvimento
 
+Clone o repositório e entre nele.
+
+```sh
+git clone https://github.com/UnBArqDsw2022-1/2022.1_G4_FluxoAgil-server
+cd 2022.1_G4_FluxoAgil-server
+```
+
+Copie o arquivo `.env.dev`:
+
+```sh
+cp .env .env.dev
+```
+
 ### Com Docker
 
-Para subir o ambiente de desenvolvimento utilizando o docker, voce precisa ter o [Docker](https://www.docker.com/) instalado em seu computador.
+Para subir o ambiente de desenvolvimento utilizando o docker, voce precisa ter o
+[Docker](https://www.docker.com/) e o 
+[Docker Compose](https://docs.docker.com/compose/install/) instalados em seu 
+computador.
 
-Clone o repositório
-Então, para subir o servidor, execute o comando abaixo:
-
-```sh
-docker build -t fluxoagil -f Dockerfile .
-```
-
-Após a construção, execute o comando abaixo para subir o servidor:
+Então, para subir o servidor e o banco de dados, execute o comando abaixo:
 
 ```sh
-docker run -p 5000:5000 fluxoagil
+docker-compose up --build -d
 ```
 
-Assim o servidor estará disponível em http://localhost:5000.
+`-d` é flag para executar o container em modo dettached, ou seja, o terminal
+vai voltar para o seu controle logo em seguida.
+
+Se deu tudo certo, a API está disponível em http://localhost:5000.
+
+Para derrubar os containeres execute:
+
+```sh
+docker-compose down
+```
+
+Se alguma coisa deu errado, verifique os logs:
+
+```sh
+docker logs fluxoagil-server
+# ou
+docker logs fluxoagil-db
+```
 
 ### Sem Docker
 
 Para subir o ambiente de desenvolvimento, você precisa ter
 [Python](https://www.python.org/) na versão 3.10 instalado
 em seu computador.
-
-Clone o repositório
-
-```sh
-git clone https://github.com/UnBArqDsw2022-1/2022.1_G4_FluxoAgil-server
-cd 2022.1_G4_FluxoAgil-server
-```
 
 Instale os requirements
 
