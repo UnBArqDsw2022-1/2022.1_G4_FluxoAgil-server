@@ -26,7 +26,7 @@ class Curriculum(Base):
     graduation_id = Column(String, ForeignKey('graduation.id'), nullable=False)
 
     def __repr__(self) -> str:
-        return f'Currículo: {self.name} ({self.id})'
+        return f'Curriculum: {self.name} ({self.id})'
 
 
 class Course(Base):
