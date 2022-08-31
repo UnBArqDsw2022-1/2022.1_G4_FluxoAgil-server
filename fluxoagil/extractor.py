@@ -38,36 +38,36 @@ class ContentExtractor:
     def _add_to_academic_history(self, table):
         for i, linha in table.df.iterrows():
             if i == 1:  # Mandatory
-                required_mandatory = linha[1]
-                required_optional = linha[2]
-                required_supplementary = linha[3]
-                required_total = linha[4]
+                required_mandatory = linha[1].replace(" h", "")
+                required_optional = linha[2].replace(" h", "")
+                required_supplementary = linha[3].replace(" h", "")
+                required_total = linha[4].replace(" h", "")
                 
             if i == 2:  # Integrated
-                integrated_mandatory = linha[1]
-                integrated_optional = linha[2]
-                integrated_supplementary = linha[3]
-                integrated_total = linha[4]
+                integrated_mandatory = linha[1].replace(" h", "")
+                integrated_optional = linha[2].replace(" h", "")
+                integrated_supplementary = linha[3].replace(" h", "")
+                integrated_total = linha[4].replace(" h", "")
 
             if i == 3:  # Pending
-                pending_mandatory = linha[1]
-                pending_optional = linha[2]
-                pending_supplementary = linha[3]
-                pending_total = linha[4]
+                pending_mandatory = linha[1].replace(" h", "")
+                pending_optional = linha[2].replace(" h", "")
+                pending_supplementary = linha[3].replace(" h", "")
+                pending_total = linha[4].replace(" h", "")
 
         academic_history = self.make_academic_history(
-            required_mandatory = required_mandatory,
-            required_optional = required_optional,
-            required_supplementary = required_supplementary,
-            required_total = required_total,
-            integrated_mandatory = integrated_mandatory,
-            integrated_optional = integrated_optional,
-            integrated_supplementary = integrated_supplementary,
-            integrated_total = integrated_total,
-            pending_mandatory = pending_mandatory,
-            pending_optional = pending_optional,
-            pending_supplementary = pending_supplementary,
-            pending_total = pending_total
+            required_mandatory = int(required_mandatory),
+            required_optional = int(required_optional),
+            required_supplementary = int(required_supplementary),
+            required_total = int(required_total),
+            integrated_mandatory = int(integrated_mandatory),
+            integrated_optional = int(integrated_optional),
+            integrated_supplementary = int(integrated_supplementary),
+            integrated_total = int(integrated_total),
+            pending_mandatory = int(pending_mandatory),
+            pending_optional = int(pending_optional),
+            pending_supplementary = int(pending_supplementary),
+            pending_total = int(pending_total)
         )
         self.academic_history = academic_history
 
