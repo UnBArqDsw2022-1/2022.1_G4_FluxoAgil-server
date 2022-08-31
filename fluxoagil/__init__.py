@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restful import Resource, Api
-from fluxoagil.views import AcademicHistory, Recommendation
+from fluxoagil.views import AcademicHistory, CoursesView, Recommendation
 
 
 class HelloFluxoAgil(Resource):
@@ -16,4 +16,5 @@ def create_app():
     api.add_resource(HelloFluxoAgil, '/')
     api.add_resource(AcademicHistory, '/academic-history')
     api.add_resource(Recommendation, '/recommendation')
+    api.add_resource(CoursesView, '/courses')
     return app
