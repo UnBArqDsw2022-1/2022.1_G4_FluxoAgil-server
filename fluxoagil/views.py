@@ -3,7 +3,9 @@ from flask import jsonify
 import werkzeug
 import uuid
 import os
+from fluxoagil.models import Course
 from utils import ContentExtractor
+from fluxoagil.repositories import CoursesRepository
 
 UPLOAD_DIR = os.path.join(os.getcwd(), 'fluxoagil', 'uploads')
 
@@ -44,3 +46,14 @@ class AcademicHistory(Resource):
     def allowed_file(filename):
         ALLOWED_EXTENSIONS = {'pdf'}
         return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+class CoursesView(Resource):
+    def get(self):
+        self.parser = reqparse.RequestParser()
+        self.parser.add_argument('curriculumId', type=str, location='args')
+        self.parser.add_argument('type', type=str, location='args')
+        params = self.parser.parse_args()
+        
+        courses_repository = CoursesRepository()
+        courses = courses_repository.get_by_curriculum_and_type(params['curriculumId'], params['type'])
+        return courses
