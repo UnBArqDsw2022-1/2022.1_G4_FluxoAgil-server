@@ -1,3 +1,4 @@
+import enum
 from sqlalchemy import Column
 from sqlalchemy import Integer
 from sqlalchemy import String
@@ -40,12 +41,16 @@ class Course(Base):
     def __repr__(self) -> str:
         return f'Course: {self.name} ({self.id})'
 
+class CourseType(enum.Enum):
+    MANDATORY = 1
+    OPTIONAL = 2
+    FREE_MODULE = 3
 
 class CurriculumContainsCourse(Base):
     __tablename__ = 'curriculum_contains_course'
-    name = Column(String(50))
     curriculum_id = Column(String, ForeignKey('curriculum.id'), nullable=False, primary_key=True)
     course_id = Column(String, ForeignKey('course.id'), nullable=False, primary_key=True)
+    type = Column(enum.Enum(CourseType))
 
 class CoursePreRequisite(Base):
     __tablename__ = 'course_pre_requisite'
