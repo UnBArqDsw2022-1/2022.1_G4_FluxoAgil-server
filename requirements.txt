@@ -6,3 +6,4 @@ ghostscript==0.7
 camelot-py==0.10.1
 opencv-python==4.6.0.66
 pandas==1.4.3
+PyMuPDF==1.19.4

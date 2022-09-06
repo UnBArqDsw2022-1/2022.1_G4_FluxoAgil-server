@@ -2,6 +2,8 @@ FROM python:3.10-slim
 
 WORKDIR /usr/src/app
 COPY requirements.txt ./requirements.txt
+RUN apt-get update
+RUN apt-get update && apt-get install -y python3-opencv
 RUN pip install -r requirements.txt
 
 COPY main.py ./main.py
