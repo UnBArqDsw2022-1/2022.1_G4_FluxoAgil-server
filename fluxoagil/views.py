@@ -1,5 +1,5 @@
 from flask_restful import reqparse, Resource
-from flask import jsonify
+from flask import jsonify, request
 import werkzeug
 import uuid
 import os
@@ -44,3 +44,9 @@ class AcademicHistory(Resource):
     def allowed_file(filename):
         ALLOWED_EXTENSIONS = {'pdf'}
         return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+class Recommendation(Resource): 
+    def post(self): 
+        json_data = request.get_json(force=True)
+        print(json_data)
+        return json_data
