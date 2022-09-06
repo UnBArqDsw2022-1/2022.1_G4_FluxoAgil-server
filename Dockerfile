@@ -1,14 +1,11 @@
 FROM python:3.10-slim
 
-WORKDIR /usr/src/app
-COPY requirements.txt ./requirements.txt
+WORKDIR /fluxoagil
 RUN apt-get update
-RUN apt-get update && apt-get install -y python3-opencv
+RUN apt-get install ffmpeg libsm6 libxext6 libpq-dev gcc python3-opencv -y
 RUN pip install -r requirements.txt
 
-COPY main.py ./main.py
-COPY fluxoagil fluxoagil
+COPY . /fluxoagil
+RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 5000
-
-CMD ["python3", "main.py"]
+CMD ["sh", "scripts/start.sh"]
