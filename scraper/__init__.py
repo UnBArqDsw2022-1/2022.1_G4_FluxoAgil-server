@@ -1,4 +1,5 @@
 from pyppeteer import launch
+import asyncio
 import re
 
 
@@ -13,7 +14,8 @@ async def get_programs(programs_link: str):
 
     for program_element in programs_elements:
         title_page_function = '(element) => element.querySelector("td").innerText'
-        title = await page.evaluate(title_page_function, program_element)
+        raw_title: str = await page.evaluate(title_page_function, program_element)
+        title = raw_title.translate(str.maketrans({chr(10): '', chr(9): ''}))
 
         program_link_page_function = '(element) => element.querySelector("a").href'
         program_link = await page.evaluate(program_link_page_function, program_element)
@@ -23,6 +25,7 @@ async def get_programs(programs_link: str):
             "id": id,
             "title": title,
             "program_link": program_link
+
         }
 
         programs.append(program)
@@ -56,3 +59,8 @@ async def get_valid_curricula(curricula_link: str):
         valid_curricula_id.append(curriculum_id)
 
     return valid_curricula_id
+
+unb_programs_url = "https://sig.unb.br/sigaa/public/curso/lista.jsf?nivel=G&aba=p-graduacao"
+programs = asyncio.run(get_programs(unb_programs_url))
+
+print(programs)
