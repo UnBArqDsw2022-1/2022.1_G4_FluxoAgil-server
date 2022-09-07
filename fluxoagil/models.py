@@ -3,6 +3,7 @@ from sqlalchemy import Column
 from sqlalchemy import Integer
 from sqlalchemy import String
 from sqlalchemy import ForeignKey
+from sqlalchemy import Enum
 
 from .db.connection import Base
 
@@ -32,24 +33,25 @@ class Curriculum(Base):
 class Course(Base):
     __tablename__ = 'course'
     id = Column(String, primary_key=True)
+    default_period = Column(Integer)
     name = Column(String(50))
-    description = Column(String(50))
     credits = Column(Integer)
     workload_in_hours = Column(Integer)
+    description = Column(String(50))
 
     def __repr__(self) -> str:
-        return f'Course: {self.name} ({self.id})'
+        return f'Course {self.default_period}: {self.name} ({self.id})'
 
-# class CourseType(enum.Enum):
-#     MANDATORY = 1
-#     OPTIONAL = 2
-#     FREE_MODULE = 3
+class CourseType(enum.Enum):
+    MANDATORY = 1
+    OPTIONAL = 2
+    FREE_MODULE = 3
 
 class CurriculumContainsCourse(Base):
     __tablename__ = 'curriculum_contains_course'
     curriculum_id = Column(String, ForeignKey('curriculum.id'), nullable=False, primary_key=True)
     course_id = Column(String, ForeignKey('course.id'), nullable=False, primary_key=True)
-#    type = Column(enum.Enum(CourseType))
+    type = Column(Enum(CourseType))
 
 class CoursePreRequisite(Base):
     __tablename__ = 'course_pre_requisite'
