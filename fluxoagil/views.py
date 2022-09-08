@@ -61,4 +61,4 @@ class CoursesView(Resource):
         
         courses_repository = CoursesRepository()
         courses = courses_repository.get_by_curriculum_and_type(params['curriculumId'], params['type'])
-        return courses
+        return {'courses': courses}
