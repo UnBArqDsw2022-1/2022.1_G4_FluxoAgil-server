@@ -4,6 +4,7 @@ import werkzeug
 import uuid
 import os
 from fluxoagil.extractor import ContentExtractor
+from fluxoagil.repositories import CoursesRepository
 
 UPLOAD_DIR = os.path.join(os.getcwd(), 'fluxoagil', 'uploads')
 
@@ -50,3 +51,14 @@ class Recommendation(Resource):
         json_data = request.get_json(force=True)
         print(json_data)
         return json_data
+
+class CoursesView(Resource):
+    def get(self):
+        self.parser = reqparse.RequestParser()
+        self.parser.add_argument('curriculumId', type=str, location='args')
+        self.parser.add_argument('type', type=str, location='args')
+        params = self.parser.parse_args()
+        
+        courses_repository = CoursesRepository()
+        courses = courses_repository.get_by_curriculum_and_type(params['curriculumId'], params['type'])
+        return {'courses': courses}
