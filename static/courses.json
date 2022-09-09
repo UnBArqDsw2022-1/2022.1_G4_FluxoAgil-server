@@ -1,0 +1,305 @@
+{
+  "6360/1": [
+    {
+      "id": "FGA0161",
+      "title": "ENGENHARIA E AMBIENTE",
+      "prerequisites": [],
+      "period": 1,
+      "credits": 4
+    },
+    {
+      "id": "FGA0163",
+      "title": "INTRODUÇÃO À ENGENHARIA",
+      "prerequisites": [],
+      "period": 1,
+      "credits": 4
+    },
+    {
+      "id": "FGA0168",
+      "title": "DESENHO INDUSTRIAL ASSISTIDO POR COMPUTADOR",
+      "prerequisites": [],
+      "period": 1,
+      "credits": 6
+    },
+    {
+      "id": "MAT0025",
+      "title": "CÁLCULO 1",
+      "prerequisites": [],
+      "period": 1,
+      "credits": 6
+    },
+    {
+      "id": "CIC0004",
+      "title": "ALGORITMOS E PROGRAMAÇÃO DE COMPUTADORES",
+      "prerequisites": [],
+      "period": 1,
+      "credits": 6
+    },
+    {
+      "id": "FGA0157",
+      "title": "PROBABILIDADE E ESTATÍSTICA APLICADO A ENGENHARIA",
+      "prerequisites": ["MAT0025"],
+      "period": 2,
+      "credits": 4
+    },
+    {
+      "id": "IFD0171",
+      "title": "FISICA 1",
+      "prerequisites": [],
+      "period": 2,
+      "credits": 4
+    },
+    {
+      "id": "IFD0173",
+      "title": "FISICA 1 EXPERIMENTAL",
+      "prerequisites": [],
+      "period": 2,
+      "credits": 2
+    },
+    {
+      "id": "MAT0026",
+      "title": "CÁLCULO 2",
+      "prerequisites": ["MAT0025"],
+      "period": 2,
+      "credits": 6
+    },
+    {
+      "id": "MAT0031",
+      "title": "INTRODUCAO A ALGEBRA LINEAR",
+      "prerequisites": [],
+      "period": 2,
+      "credits": 4
+    },
+    {
+      "id": "FGA0133",
+      "title": "ENGENHARIA ECONÔMICA",
+      "prerequisites": [],
+      "period": 3,
+      "credits": 4
+    },
+    {
+      "id": "FGA0158",
+      "title": "ORIENTAÇÃO A OBJETOS",
+      "prerequisites": ["CIC0004"],
+      "period": 3,
+      "credits": 4
+    },
+    {
+      "id": "FGA0160",
+      "title": "MÉTODOS NUMÉRICOS PARA ENGENHARIA",
+      "prerequisites": ["MAT0026"],
+      "period": 3,
+      "credits": 4
+    },
+    {
+      "id": "FGA0164",
+      "title": "HUMANIDADES E CIDADANIA",
+      "prerequisites": [],
+      "period": 3,
+      "credits": 4
+    },
+    {
+      "id": "FGA0071",
+      "title": "PRÁTICA DE ELETRÔNICA DIGITAL 1",
+      "prerequisites": ["MAT0031"],
+      "period": 3,
+      "credits": 2
+    },
+    {
+      "id": "FGA0073",
+      "title": "TEORIA DE ELETRÔNICA DIGITAL 1",
+      "prerequisites": ["MAT0031"],
+      "period": 3,
+      "credits": 4
+    },
+    {
+      "id": "FGA0085",
+      "title": "MATEMÁTICA DISCRETA 1",
+      "prerequisites": [],
+      "period": 3,
+      "credits": 4
+    },
+    {
+      "id": "FGA0108",
+      "title": "MATEMÁTICA DISCRETA 2",
+      "prerequisites": ["FGA0085"],
+      "period": 4,
+      "credits": 4
+    },
+    {
+      "id": "FGA0138",
+      "title": "MÉTODOS DE DESENVOLVIMENTO DE SOFTWARE",
+      "prerequisites": ["FGA0158"],
+      "period": 4,
+      "credits": 4
+    },
+    {
+      "id": "FGA0142",
+      "title": "FUNDAMENTOS DE ARQUITETURA DE COMPUTADORES",
+      "prerequisites": ["FGA0071", "FGA0073"],
+      "period": 4,
+      "credits": 4
+    },
+    {
+      "id": "FGA0147",
+      "title": "ESTRUTURA DE DADOS E ALGORITMOS",
+      "prerequisites": ["CIC0004"],
+      "period": 4,
+      "credits": 4
+    },
+    {
+      "id": "FGA0150",
+      "title": "PROJETO INTEGRADOR DE ENGENHARIA 1",
+      "prerequisites": [],
+      "period": 4,
+      "credits": 4
+    },
+    {
+      "id": "FGA0184",
+      "title": "GESTÃO DA PRODUÇÃO E QUALIDADE",
+      "prerequisites": ["FGA0133"],
+      "period": 4,
+      "credits": 4
+    },
+    {
+      "id": "FGA0003",
+      "title": "COMPILADORES 1",
+      "prerequisites": ["FGA0147"],
+      "period": 5,
+      "credits": 4
+    },
+    {
+      "id": "FGA0030",
+      "title": "ESTRUTURAS DE DADOS 2",
+      "prerequisites": ["FGA0147"],
+      "period": 5,
+      "credits": 4
+    },
+    {
+      "id": "FGA0137",
+      "title": "SISTEMAS DE BANCO DE DADOS 1",
+      "prerequisites": ["FGA0108"],
+      "period": 5,
+      "credits": 4
+    },
+    {
+      "id": "FGA0170",
+      "title": "FUNDAMENTOS DE SISTEMAS OPERACIONAIS",
+      "prerequisites": ["FGA0142"],
+      "period": 5,
+      "credits": 4
+    },
+    {
+      "id": "FGA0172",
+      "title": "REQUISITOS DE SOFTWARE",
+      "prerequisites": ["FGA0138"],
+      "period": 5,
+      "credits": 4
+    },
+    {
+      "id": "FGA0173",
+      "title": "INTERAÇÃO HUMANO COMPUTADOR",
+      "prerequisites": ["FGA0138"],
+      "period": 5,
+      "credits": 4
+    },
+    {
+      "id": "FGA0060",
+      "title": "SISTEMAS DE BANCO DE DADOS 2",
+      "prerequisites": ["FGA0137"],
+      "period": 6,
+      "credits": 4
+    },
+    {
+      "id": "FGA0208",
+      "title": "ARQUITETURA E DESENHO DE SOFTWARE",
+      "prerequisites": ["FGA0172"],
+      "period": 6,
+      "credits": 4
+    },
+    {
+      "id": "FGA0211",
+      "title": "FUNDAMENTOS DE REDES DE COMPUTADORES",
+      "prerequisites": ["FGA0170"],
+      "period": 6,
+      "credits": 4
+    },
+    {
+      "id": "FGA0238",
+      "title": "TESTES DE SOFTWARE",
+      "prerequisites": ["FGA0138"],
+      "period": 6,
+      "credits": 4
+    },
+    {
+      "id": "FGA0278",
+      "title": "QUALIDADE DE SOFTWARE 1",
+      "prerequisites": ["FGA0184", "FGA0173"],
+      "period": 6,
+      "credits": 4
+    },
+    {
+      "id": "FGA0109",
+      "title": "FUNDAMENTOS DE SISTEMAS EMBARCADOS",
+      "prerequisites": ["FGA0170"],
+      "period": 7,
+      "credits": 4
+    },
+    {
+      "id": "FGA0210",
+      "title": "PARADIGMAS DE PROGRAMAÇÃO",
+      "prerequisites": ["FGA0158", "FGA0003"],
+      "period": 7,
+      "credits": 4
+    },
+    {
+      "id": "FGA0244",
+      "title": "PROGRAMAÇÃO PARA SISTEMAS PARALELOS E DISTRIBUÍDOS",
+      "prerequisites": [],
+      "period": 7,
+      "credits": 4
+    },
+    {
+      "id": "FGA0242",
+      "title": "TÉCNICAS DE PROGRAMAÇÃO EM PLATAFORMAS EMERGENTES",
+      "prerequisites": ["FGA0208", "FGA0238"],
+      "period": 7,
+      "credits": 4
+    },
+    {
+      "id": "FGA0206",
+      "title": "ENGENHARIA DE PRODUTO DE SOFTWARE",
+      "prerequisites": ["FGA0242"],
+      "period": 8,
+      "credits": 4
+    },
+    {
+      "id": "FGA0240",
+      "title": "GERÊNCIA DE CONFIGURAÇÃO E EVOLUÇÃO DE SOFTWARE",
+      "prerequisites": ["FGA0238"],
+      "period": 8,
+      "credits": 4
+    },
+    {
+      "id": "FGA0009",
+      "title": "TRABALHO DE CONCLUSÃO DE CURSO 1",
+      "prerequisites": [],
+      "period": 9,
+      "credits": 4
+    },
+    {
+      "id": "FGA0250",
+      "title": "PROJETO INTEGRADOR DE ENGENHARIA 2",
+      "prerequisites": ["FGA0150"],
+      "period": 9,
+      "credits": 4
+    },
+    {
+      "id": "FGA0011",
+      "title": "TRABALHO DE CONCLUSÃO DE CURSO 2",
+      "prerequisites": ["FGA0009"],
+      "period": 9,
+      "credits": 4
+    }
+  ]
+}

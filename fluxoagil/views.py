@@ -4,8 +4,10 @@ import werkzeug
 import uuid
 import os
 from fluxoagil.extractor import ContentExtractor
+from fluxoagil.recommender import get_recommendation
 
 UPLOAD_DIR = os.path.join(os.getcwd(), 'fluxoagil', 'uploads')
+
 
 class AcademicHistory(Resource):
     def __init__(self):
@@ -45,8 +47,11 @@ class AcademicHistory(Resource):
         ALLOWED_EXTENSIONS = {'pdf'}
         return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-class Recommendation(Resource): 
-    def post(self): 
-        json_data = request.get_json(force=True)
-        print(json_data)
-        return json_data
+
+class Recommendation(Resource):
+    def post(self):
+        body = request.get_json(force=True)
+        settings, approved,  = body["settings"], body["approved"]
+        recommendation = get_recommendation(settings, approved)
+
+        return recommendation

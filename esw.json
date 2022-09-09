@@ -1,0 +1,599 @@
+{
+  "id": 414924,
+  "title": "Engenharia de Software",
+  "curricula": {
+    "6360/1": {
+      "courses": {
+        "required": [
+          {
+            "FGA0161": { "title": "ENGENHARIA E AMBIENTE", "workload": 60, "prerequisites": [] },
+            "FGA0163": { "title": "INTRODUÇÃO À ENGENHARIA", "workload": 30, "prerequisites": [] },
+            "FGA0168": {
+              "title": "DESENHO INDUSTRIAL ASSISTIDO POR COMPUTADOR",
+              "workload": 90,
+              "prerequisites": []
+            },
+            "MAT0025": { "title": "CÁLCULO 1", "workload": 90, "prerequisites": [] }
+          },
+          {
+            "FGA0157": {
+              "title": "PROBABILIDADE E ESTATÍSTICA APLICADO A ENGENHARIA",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "IFD0171": { "title": "FISICA 1", "workload": 60, "prerequisites": [] },
+            "IFD0173": { "title": "FISICA 1 EXPERIMENTAL", "workload": 30, "prerequisites": [] },
+            "MAT0026": { "title": "CÁLCULO 2", "workload": 90, "prerequisites": [] },
+            "MAT0031": {
+              "title": "INTRODUCAO A ALGEBRA LINEAR",
+              "workload": 60,
+              "prerequisites": []
+            }
+          },
+          {
+            "FGA0133": { "title": "ENGENHARIA ECONÔMICA", "workload": 60, "prerequisites": [] },
+            "FGA0158": { "title": "ORIENTAÇÃO A OBJETOS", "workload": 60, "prerequisites": [] },
+            "FGA0160": {
+              "title": "MÉTODOS NUMÉRICOS PARA ENGENHARIA",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0164": { "title": "HUMANIDADES E CIDADANIA", "workload": 60, "prerequisites": [] }
+          },
+          {
+            "FGA0108": { "title": "MATEMÁTICA DISCRETA 2", "workload": 60, "prerequisites": [] },
+            "FGA0138": {
+              "title": "MÉTODOS DE DESENVOLVIMENTO DE SOFTWARE",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0142": {
+              "title": "FUNDAMENTOS DE ARQUITETURA DE COMPUTADORES",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0147": {
+              "title": "ESTRUTURA DE DADOS E ALGORITMOS",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0150": {
+              "title": "PROJETO INTEGRADOR DE ENGENHARIA 1",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0184": {
+              "title": "GESTÃO DA PRODUÇÃO E QUALIDADE",
+              "workload": 60,
+              "prerequisites": []
+            }
+          },
+          {
+            "FGA0003": { "title": "COMPILADORES 1", "workload": 60, "prerequisites": [] },
+            "FGA0030": { "title": "ESTRUTURAS DE DADOS 2", "workload": 60, "prerequisites": [] },
+            "FGA0137": {
+              "title": "SISTEMAS DE BANCO DE DADOS 1",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0170": {
+              "title": "FUNDAMENTOS DE SISTEMAS OPERACIONAIS",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0172": { "title": "REQUISITOS DE SOFTWARE", "workload": 60, "prerequisites": [] },
+            "FGA0173": {
+              "title": "INTERAÇÃO HUMANO COMPUTADOR",
+              "workload": 60,
+              "prerequisites": []
+            }
+          },
+          {
+            "FGA0060": {
+              "title": "SISTEMAS DE BANCO DE DADOS 2",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0208": {
+              "title": "ARQUITETURA E DESENHO DE SOFTWARE",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0211": {
+              "title": "FUNDAMENTOS DE REDES DE COMPUTADORES",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0238": { "title": "TESTES DE SOFTWARE", "workload": 60, "prerequisites": [] },
+            "FGA0278": { "title": "QUALIDADE DE SOFTWARE 1", "workload": 60, "prerequisites": [] }
+          },
+          {
+            "FGA0109": {
+              "title": "FUNDAMENTOS DE SISTEMAS EMBARCADOS",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0210": {
+              "title": "PARADIGMAS DE PROGRAMAÇÃO",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0244": {
+              "title": "PROGRAMAÇÃO PARA SISTEMAS PARALELOS E DISTRIBUÍDOS",
+              "workload": 60,
+              "prerequisites": []
+            }
+          },
+          {
+            "FGA0021": { "title": "ESTÁGIO SUPERVISIONADO", "workload": 210, "prerequisites": [] },
+            "FGA0206": {
+              "title": "ENGENHARIA DE PRODUTO DE SOFTWARE",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0240": {
+              "title": "GERÊNCIA DE CONFIGURAÇÃO E EVOLUÇÃO DE SOFTWARE",
+              "workload": 60,
+              "prerequisites": []
+            }
+          },
+          {
+            "FGA0009": {
+              "title": "TRABALHO DE CONCLUSÃO DE CURSO 1",
+              "workload": 60,
+              "prerequisites": []
+            },
+            "FGA0250": {
+              "title": "PROJETO INTEGRADOR DE ENGENHARIA 2",
+              "workload": 90,
+              "prerequisites": []
+            }
+          },
+          {
+            "FGA0011": {
+              "title": "TRABALHO DE CONCLUSÃO DE CURSO 2",
+              "workload": 90,
+              "prerequisites": []
+            }
+          }
+        ],
+        "elective": {
+          "CIC0088": { "title": "COMPUTACAO BASICA", "workload": 90, "prerequisites": [] },
+          "CIC0090": { "title": "ESTRUTURAS DE DADOS", "workload": 60, "prerequisites": [] },
+          "CIC0111": {
+            "title": "PRINCIPIOS DE COMPUTACAO GRAFICA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "CIC0189": {
+            "title": "PROJETO E ANÁLISE DE ALGORITMOS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "CIC0191": {
+            "title": "INTRODUÇÃO AO DESENVOLVIMENTO DE JOGOS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "CIC0197": { "title": "TECNICAS DE PROGRAMAÇÃO 1", "workload": 60, "prerequisites": [] },
+          "DEG0200": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 15, "prerequisites": [] },
+          "DEG0201": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 30, "prerequisites": [] },
+          "DEG0202": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 45, "prerequisites": [] },
+          "DEG0203": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 60, "prerequisites": [] },
+          "DEG0205": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 90, "prerequisites": [] },
+          "DEG0206": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 120, "prerequisites": [] },
+          "DEG0207": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 150, "prerequisites": [] },
+          "DEG0208": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 180, "prerequisites": [] },
+          "DEG0209": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 210, "prerequisites": [] },
+          "DEG0210": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 240, "prerequisites": [] },
+          "DEG0211": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 270, "prerequisites": [] },
+          "DEG0212": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 300, "prerequisites": [] },
+          "DEG0213": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 330, "prerequisites": [] },
+          "DEG0214": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 360, "prerequisites": [] },
+          "DEG0215": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 390, "prerequisites": [] },
+          "DEG0216": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 420, "prerequisites": [] },
+          "DEG0217": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 450, "prerequisites": [] },
+          "DEG0218": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 480, "prerequisites": [] },
+          "DEG0219": { "title": "ATIVIDADE COMPLEMENTAR", "workload": 510, "prerequisites": [] },
+          "ENE0277": { "title": "SISTEMAS DIGITAIS 1", "workload": 90, "prerequisites": [] },
+          "ENE0278": { "title": "SISTEMAS DIGITAIS 2", "workload": 90, "prerequisites": [] },
+          "ENM0080": { "title": "FENOMENOS DE TRANSPORTE", "workload": 75, "prerequisites": [] },
+          "FEF0105": { "title": "PRÁTICA DESPORTIVA", "workload": 30, "prerequisites": [] },
+          "FGA0001": {
+            "title": "CONTRATAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0004": {
+            "title": "TÉCNICAS DE MEDIÇÃO FUNCIONAL E ESTIMATIVAS DE SOFTWARE",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0006": {
+            "title": "FUNDAMENTOS DE EQUAÇÕES DIFERENCIAIS PARA ENGENHARIA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0007": {
+            "title": "CONFIABILIDADE DE COMPONENTES E SISTEMAS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0008": { "title": "SISTEMAS AEROESPACIAIS", "workload": 60, "prerequisites": [] },
+          "FGA0026": {
+            "title": "FUNDAMENTOS DE ARQUITETURA DE SOFTWARE",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0027": {
+            "title": "PRINCÍPIOS DE ROBÓTICA EDUCACIONAL",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0028": {
+            "title": "PROGRAMAÇÃO PARA COMPETIÇÕES",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0031": {
+            "title": "SEMINÁRIOS EM ENGENHARIA DE SOFTWARE",
+            "workload": 30,
+            "prerequisites": []
+          },
+          "FGA0033": {
+            "title": "TÓPICOS ESPECIAIS EM FÍSICA APLICADA",
+            "workload": 30,
+            "prerequisites": []
+          },
+          "FGA0034": {
+            "title": "TÓPICOS ESPECIAIS EM MATEMÁTICA APLICADA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0036": {
+            "title": "PRÉ-CÁLCULO PARA ENGENHARIA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0038": {
+            "title": "AERODINÂMICA DE SISTEMAS AEROESPACIAIS",
+            "workload": 75,
+            "prerequisites": []
+          },
+          "FGA0041": {
+            "title": "TÓPICOS ESPECIAIS EM JOGOS DIGITAIS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0042": {
+            "title": "TÓPICOS ESPECIAIS EM SISTEMAS CRÍTICOS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0043": {
+            "title": "DINÂMICA DOS GASES PARA SISTEMAS AEROESPACIAIS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0044": {
+            "title": "PROJETO DE SISTEMAS DE CONTROLE",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0045": { "title": "MECÂNICA DO VÔO", "workload": 60, "prerequisites": [] },
+          "FGA0046": {
+            "title": "MÉTODOS E TÉCNICAS DA ESCRITA CIENTÍFICA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0047": { "title": "PROCESSOS PETROQUÍMICOS", "workload": 60, "prerequisites": [] },
+          "FGA0053": {
+            "title": "TÓPICOS ESPECIAIS EM PROGRAMAÇÃO",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0054": {
+            "title": "TÓPICOS ESPECIAIS EM GOVERNANÇA DE TECNOLOGIA DA INFORMAÇÃO",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0058": {
+            "title": "CRIPTOGRAFIA E SEGURANÇA DE REDES",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0061": {
+            "title": "FÍSICA PARA JOGOS ELETRÔNICOS 1",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0066": {
+            "title": "FUNDAMENTOS DE VARIÁVEL COMPLEXA PARA ENGENHARIA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0072": {
+            "title": "PRÁTICA DE ELETRÔNICA DIGITAL 2",
+            "workload": 30,
+            "prerequisites": []
+          },
+          "FGA0074": {
+            "title": "TEORIA DE ELETRÔNICA DIGITAL 2",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0075": {
+            "title": "LABORATÓRIO DE MATERIAIS DE CONSTRUÇÃO",
+            "workload": 15,
+            "prerequisites": []
+          },
+          "FGA0078": {
+            "title": "TEORIA DE MATERIAIS DE CONSTRUÇÃO",
+            "workload": 45,
+            "prerequisites": []
+          },
+          "FGA0090": {
+            "title": "ONDULATÓRIA E FÍSICA TÉRMICA PARA ENGENHARIA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0093": { "title": "PRINCÍPIOS DE CONTROLE", "workload": 75, "prerequisites": [] },
+          "FGA0104": {
+            "title": "QUÍMICA ORGÂNICA APLICADA À ENGENHARIA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0123": { "title": "CÁLCULO PARA ENGENHARIA 1", "workload": 60, "prerequisites": [] },
+          "FGA0125": {
+            "title": "INTRODUÇÃO À GEOMETRIA ANALÍTICA",
+            "workload": 30,
+            "prerequisites": []
+          },
+          "FGA0126": { "title": "CÁLCULO PARA ENGENHARIA 2", "workload": 60, "prerequisites": [] },
+          "FGA0127": {
+            "title": "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0128": { "title": "CÁLCULO PARA ENGENHARIA 3", "workload": 60, "prerequisites": [] },
+          "FGA0129": {
+            "title": "PROCESSAMENTO DIGITAL DE SINAIS FINANCEIROS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0134": {
+            "title": "TÓPICOS ESPECIAIS DE ENGENHARIA DE SOFTWARE",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0139": {
+            "title": "MATERIAIS DE CONSTRUÇÃO DE ENGENHARIA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0141": {
+            "title": "GESTÃO AMBIENTAL NO SETOR ENERGÉTICO",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0143": {
+            "title": "FUNDAMENTOS DA TEORIA ELETROMAGNÉTICA",
+            "workload": 90,
+            "prerequisites": []
+          },
+          "FGA0144": { "title": "FÍSICA MODERNA", "workload": 90, "prerequisites": [] },
+          "FGA0148": {
+            "title": "ENGENHARIA DE SEGURANÇA DO TRABALHO",
+            "workload": 30,
+            "prerequisites": []
+          },
+          "FGA0152": { "title": "ERGONOMIA DO PRODUTO", "workload": 60, "prerequisites": [] },
+          "FGA0154": {
+            "title": "MECANICA DOS SÓLIDOS 1 PARA ENGENHARIA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0155": {
+            "title": "INTRODUÇÃO AO DESIGN E CONCEPÇÃO DE VEÍCULOS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0156": {
+            "title": "COMBUSTÍVEIS E BIOCOMBUSTÍVEIS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0159": {
+            "title": "ESTRUTURAS MATEMÁTICAS PARA COMPUTAÇÃO",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0165": {
+            "title": "PROCESSO DE DESENVOLVIMENTO DE SOFTWARE",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0166": {
+            "title": "ELEMENTOS E MÉTODOS EM ELETRÔNICA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0167": { "title": "SISTEMAS AUTOMOTIVOS", "workload": 60, "prerequisites": [] },
+          "FGA0169": {
+            "title": "FONTES DE ENERGIA E TECNOLOGIAS DE CONVERSÃO",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0171": { "title": "TÉCNICAS DE PROGRAMAÇÃO", "workload": 60, "prerequisites": [] },
+          "FGA0174": {
+            "title": "DESENVOLVIMENTO SUSTENTÁVEL",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0175": {
+            "title": "ENGENHARIA DE PETRÓLEO E GÁS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0179": {
+            "title": "MECANICA DOS SÓLIDOS 2 PARA ENGENHARIA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0181": { "title": "INOVAÇÃO", "workload": 30, "prerequisites": [] },
+          "FGA0182": {
+            "title": "MICROPROCESSADORES E MICROCONTROLADORES",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0186": { "title": "ELETRICIDADE APLICADA", "workload": 90, "prerequisites": [] },
+          "FGA0187": {
+            "title": "MÉTODOS MATEMÁTICOS PARA ENGENHARIA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0188": {
+            "title": "MÉTODOS EXPERIMENTAIS PARA ENGENHARIA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0195": {
+            "title": "GESTÃO DA PRODUÇÃO AUTOMOTIVA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0196": { "title": "CIRCUITOS ELETRÔNICOS 1", "workload": 90, "prerequisites": [] },
+          "FGA0197": { "title": "SISTEMAS DE CONTROLE", "workload": 60, "prerequisites": [] },
+          "FGA0201": {
+            "title": "PROJETO DE CIRCUITOS INTEGRADOS DIGITAIS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0203": {
+            "title": "PLANEJAMENTO E GESTÃO DE ENERGIA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0204": { "title": "DINÂMICA DOS FLUÍDOS", "workload": 75, "prerequisites": [] },
+          "FGA0212": { "title": "MODELAGEM DE PROCESSOS", "workload": 60, "prerequisites": [] },
+          "FGA0213": {
+            "title": "SISTEMAS CRÍTICOS E TOLERÂNCIA A FALHAS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0220": { "title": "SISTEMAS EMBARCADOS", "workload": 60, "prerequisites": [] },
+          "FGA0221": { "title": "INTELIGÊNCIA ARTIFICIAL", "workload": 60, "prerequisites": [] },
+          "FGA0226": { "title": "ELETRÔNICA VEICULAR", "workload": 60, "prerequisites": [] },
+          "FGA0245": {
+            "title": "GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE",
+            "workload": 30,
+            "prerequisites": []
+          },
+          "FGA0246": { "title": "MÉTODOS FORMAIS", "workload": 60, "prerequisites": [] },
+          "FGA0248": {
+            "title": "SISTEMAS DE PROPULSÃO HÍBRIDOS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0253": {
+            "title": "INSTRUMENTAÇÃO E SISTEMAS DE CONTROLE",
+            "workload": 75,
+            "prerequisites": []
+          },
+          "FGA0254": { "title": "CIÊNCIAS AEROESPACIAIS", "workload": 60, "prerequisites": [] },
+          "FGA0263": {
+            "title": "INTRODUÇÃO AOS JOGOS ELETRÔNICOS",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0264": {
+            "title": "INTRODUÇÃO A COMPUTAÇÃO GRÁFICA",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0265": { "title": "ECONOMIA DE ENERGIA", "workload": 60, "prerequisites": [] },
+          "FGA0274": {
+            "title": "PRODUTIVIDADE E PROFISSIONALISMO EM ENGENHARIA DE SOFTWARE",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0275": {
+            "title": "ENGENHARIA DE SOFTWARE EXPERIMENTAL",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0276": { "title": "COMPUTAÇÃO EM NUVEM", "workload": 60, "prerequisites": [] },
+          "FGA0279": { "title": "PROGRAMAÇÃO WEB", "workload": 60, "prerequisites": [] },
+          "FTD0007": {
+            "title": "INTRODUCAO A ATIVIDADE EMPRESARIAL",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "IQD0051": { "title": "QUÍMICA GERAL", "workload": 90, "prerequisites": [] },
+          "IQD0125": { "title": "QUIMICA GERAL TEORICA", "workload": 60, "prerequisites": [] },
+          "IQD0126": { "title": "QUIMICA GERAL EXPERIMENTAL", "workload": 30, "prerequisites": [] },
+          "LIP0174": {
+            "title": "LÍNGUA DE SINAIS BRASILEIRA - BÁSICO",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "MAT0027": { "title": "CÁLCULO 3", "workload": 90, "prerequisites": [] },
+          "MAT0038": { "title": "TEORIA DOS NÚMEROS 1", "workload": 60, "prerequisites": [] },
+          "MAT0048": { "title": "EQUACOES DIFERENCIAIS 1", "workload": 60, "prerequisites": [] },
+          "MAT0137": { "title": "CÁLCULO 1 - SEMIPRESENCIAL", "workload": 90, "prerequisites": [] },
+          "CIC0004": {
+            "title": "ALGORITMOS E PROGRAMAÇÃO DE COMPUTADORES",
+            "workload": 90,
+            "prerequisites": []
+          },
+          "FGA0084": {
+            "title": "DESENVOLVIMENTO DE SOFTWARE",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0071": {
+            "title": "PRÁTICA DE ELETRÔNICA DIGITAL 1",
+            "workload": 30,
+            "prerequisites": []
+          },
+          "FGA0073": {
+            "title": "TEORIA DE ELETRÔNICA DIGITAL 1",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0085": { "title": "MATEMÁTICA DISCRETA 1", "workload": 60, "prerequisites": [] },
+          "FGA0124": { "title": "PROJETO DE ALGORITMOS", "workload": 60, "prerequisites": [] },
+          "FGA0112": { "title": "QUALIDADE DE SOFTWARE 2", "workload": 60, "prerequisites": [] },
+          "FGA0115": {
+            "title": "INFORMAÇÃO, COMUNICAÇÃO E A SOCIEDADE DO CONHECIMENTO",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0242": {
+            "title": "TÉCNICAS DE PROGRAMAÇÃO EM PLATAFORMAS EMERGENTES",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0113": {
+            "title": "FÍSICA PARA JOGOS ELETRÔNICOS 1",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0083": { "title": "APRENDIZADO DE MÁQUINA", "workload": 60, "prerequisites": [] },
+          "FGA0111": { "title": "INTRODUÇÃO À WEB SEMÂNTICA", "workload": 60, "prerequisites": [] },
+          "FGA0114": {
+            "title": "FÍSICA PARA JOGOS ELETRÔNICOS 2",
+            "workload": 60,
+            "prerequisites": []
+          },
+          "FGA0110": { "title": "COMPILADORES 2", "workload": 60, "prerequisites": [] },
+          "FGA0273": {
+            "title": "MELHORIA DE PROCESSOS DE SOFTWARE",
+            "workload": 60,
+            "prerequisites": []
+          }
+        }
+      }
+    }
+  }
+}
